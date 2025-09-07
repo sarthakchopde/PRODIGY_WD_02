@@ -1,0 +1,18 @@
+
+body { font-family: "Times New Roman"; }
+.align { display: flex; justify-content: center; align-items: center; height: 100vh; }
+.container { background-color: thistle; height: 350px; width: 550px; text-align: center; }
+h4 { color: purple; padding: 20px; font-size: 30px; font-weight: bold; }
+.digits { font-size: 70px; color: white; }
+.text { font-size: 20px; color: hotpink; font-weight: bold; }
+#buttons { margin-top: 35px; }
+.btn1, .btn2, .btn3 {
+  width: 90px; height: 50px; padding: 8px 5px 8px 2px;
+  margin: 10px 25px 20px 10px; border-radius: 50px; cursor: pointer;
+  font-size: 20px; transition: 0.7s; color: white; font-weight: 550;
+  border: 0; font-family: "Times New Roman";
+}
+.btn1 { background-color: indigo; }
+.btn2 { background-color: mediumpurple; }
+.btn3 { background-color: rgb(160, 214, 221); }
+.btn1:hover, .btn2:hover, .btn3:hover { color: indigo; background-color: white; }
